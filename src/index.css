@@ -6,7 +6,7 @@
   -webkit-text-size-adjust: 100%;
 }
 
-*:where(:not(iframe, canvas, details, img, summary, svg, svg *, symbol *, video)) {
+*:where(:not(iframe, canvas, details, img, summary, svg, svg *, symbol *, video, button)) {
   all: unset;
   display: revert;
 }
