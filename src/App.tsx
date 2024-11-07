@@ -1,7 +1,8 @@
+// @deno-types="@types/react"
+import { useReducer } from "react";
+
 import "./App.css";
 import { Tools } from "./Tools.tsx";
-
-import { useReducer } from "react";
 
 import { initialState, reducer } from "./state/reducer.ts";
 import { StateContext, StateDispatchContext } from "./state/StateContext.ts";
