@@ -1,4 +1,6 @@
-# Vite + Deno + React + TypeScript
+# Undo Project
+
+For exploring Undo as a tree rather than a linear structure.
 
 ## Running
 
